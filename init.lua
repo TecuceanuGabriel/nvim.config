@@ -1,1 +1,1 @@
-require("lua.config");
+require("core");
