@@ -25,6 +25,8 @@ vim.opt.writebackup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
+vim.opt.clipboard = "unnamedplus"
+
 vim.opt.scrolloff = 5
 
 vim.opt.colorcolumn = "80"
