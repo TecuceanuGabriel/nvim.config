@@ -6,4 +6,5 @@ return {
         dependencies = { { "echasnovski/mini.icons", opts = {} } },
         lazy = false,
     },
+    { "sphamba/smear-cursor.nvim", }
 }
