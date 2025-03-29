@@ -6,6 +6,10 @@ return {
 
     dependencies = {
         { 'JoosepAlviste/nvim-ts-context-commentstring' },
+        {
+            "folke/ts-comments.nvim",
+            event = "VeryLazy",
+        },
         { 'HiPhish/rainbow-delimiters.nvim' },
         { 'windwp/nvim-ts-autotag' }
         -- {'windwp/nvim-autopairs'}
