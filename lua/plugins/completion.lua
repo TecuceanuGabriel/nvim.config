@@ -1,15 +1,15 @@
 return {
-    'saghen/blink.cmp',
-    version = '1.*',
+    "saghen/blink.cmp",
+    version = "1.*",
     dependencies = {
-        { 'L3MON4D3/LuaSnip', run = "make install_jsregexp" },
-        'rafamadriz/friendly-snippets',
+        { "L3MON4D3/LuaSnip", run = "make install_jsregexp" },
+        "rafamadriz/friendly-snippets",
     },
 
     opts = {
-        keymap = { preset = 'super-tab' },
+        keymap = { preset = "super-tab" },
         appearance = {
-            nerd_font_variant = 'normal'
+            nerd_font_variant = "normal"
         },
         completion = { documentation = { auto_show = false } },
     },

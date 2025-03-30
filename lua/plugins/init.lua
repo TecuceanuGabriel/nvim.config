@@ -9,5 +9,6 @@ return {
     {
         "sphamba/smear-cursor.nvim",
         opts = {},
-    }
+    },
+    { "tpope/vim-surround" },
 }

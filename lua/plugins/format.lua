@@ -1,5 +1,5 @@
 return {
-    'stevearc/conform.nvim',
+    "stevearc/conform.nvim",
     config = function()
         require("conform").setup({
             lua = { "stylua" },

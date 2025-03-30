@@ -10,14 +10,14 @@ function Color(color)
 end
 
 return {
-    'morhetz/gruvbox',
-    'joshdick/onedark.vim',
-    'olimorris/onedarkpro.nvim',
-    'dracula/vim',
-    'folke/tokyonight.nvim',
-    'rose-pine/neovim',
-    'lifepillar/vim-solarized8',
-
-    'chriskempson/base16-vim',
-    'rafi/awesome-vim-colorschemes',
+    "morhetz/gruvbox",
+    "joshdick/onedark.vim",
+    "olimorris/onedarkpro.nvim",
+    "dracula/vim",
+    "folke/tokyonight.nvim",
+    "rose-pine/neovim",
+    "lifepillar/vim-solarized8",
+    -- color scheme packs
+    "chriskempson/base16-vim",
+    "rafi/awesome-vim-colorschemes",
 }

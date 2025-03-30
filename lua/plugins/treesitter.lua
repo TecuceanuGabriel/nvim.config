@@ -1,18 +1,18 @@
 return {
-    'nvim-treesitter/nvim-treesitter',
+    "nvim-treesitter/nvim-treesitter",
     build = function()
         require("nvim-treesitter.install").update({ with_sync = true })()
     end,
 
     dependencies = {
-        { 'JoosepAlviste/nvim-ts-context-commentstring' },
+        { "JoosepAlviste/nvim-ts-context-commentstring" },
         {
             "folke/ts-comments.nvim",
             event = "VeryLazy",
         },
-        { 'HiPhish/rainbow-delimiters.nvim' },
-        { 'windwp/nvim-ts-autotag' }
-        -- {'windwp/nvim-autopairs'}
+        { "HiPhish/rainbow-delimiters.nvim" },
+        { "windwp/nvim-ts-autotag" }
+        -- {"windwp/nvim-autopairs"}
     },
 
     config = function()
