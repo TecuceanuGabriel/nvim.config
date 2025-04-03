@@ -11,4 +11,9 @@ return {
         opts = {},
     },
     { "tpope/vim-surround" },
+    {
+        "folke/todo-comments.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" },
+        opts = {},
+    }
 }

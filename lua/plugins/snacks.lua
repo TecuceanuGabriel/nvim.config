@@ -4,8 +4,8 @@ return {
     lazy = false,
 
     opts = {
+        -- notifier = { enabled = true },
         bigfile = { enabled = true },
-        notifier = { enabled = true },
         quickfile = { enabled = true },
         scope = { enabled = true },
         scroll = { enabled = true },

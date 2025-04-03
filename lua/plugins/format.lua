@@ -3,6 +3,7 @@ return {
     config = function()
         require("conform").setup({
             lua = { "stylua" },
+            haskel = { "ormolu" },
         })
     end
 }
