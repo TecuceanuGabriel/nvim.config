@@ -10,5 +10,6 @@ return {
         vim.keymap.set("n", "<Leader>cs", builtin.lsp_document_symbols, {})
         vim.keymap.set("n", "<Leader>cd", builtin.diagnostics, {})
         vim.keymap.set("n", "<Leader>lg", builtin.live_grep, {})
+        vim.keymap.set("n", "<Leader>ct", vim.cmd.TodoTelescope, {})
     end
 }
