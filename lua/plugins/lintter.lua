@@ -3,7 +3,7 @@ return {
 	config = function()
 		local lint = require("lint")
 
-		lint.linters_by_Ft = {
+		lint.linters_by_ft = {
 			c = { "clangtidy" },
 			json = { "jsonlint" },
 		}

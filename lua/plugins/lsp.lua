@@ -20,6 +20,7 @@ return {
 				"lua_ls",
 				"clangd",
 				"hls",
+				"rust_analyzer",
 			},
 			handlers = {
 				function(server_name)
@@ -33,6 +34,8 @@ return {
 			ensure_installed = {
 				"stylua",
 				"ormolu",
+				"prettier",
+				"mdformat",
 			},
 		})
 
