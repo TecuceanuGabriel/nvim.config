@@ -6,10 +6,6 @@ return {
         dependencies = { { "echasnovski/mini.icons", opts = {} } },
         lazy = false,
     },
-    {
-        "sphamba/smear-cursor.nvim",
-        opts = {},
-    },
     { "tpope/vim-surround" },
     {
         "folke/todo-comments.nvim",
